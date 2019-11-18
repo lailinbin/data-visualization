@@ -1,5 +1,17 @@
-# Python新手实战项目（数据可视化）
+# 用Pygal模拟掷骰子
+## 安装Pygal
+- **linux系统下的安装命令**
 
-**该项目参考[Python编程从入门到实践](https://detail.tmall.com/item.htm?spm=a230r.1.14.6.41de1f5bYhd8ZB&id=535882394166&cm_id=140105335569ed55e27b&abbucket=12)**
+`pip install --user pygal=1.7`
 
-RandomWalk与rw_visual为书本教学代码，有点细微更改。其余为练习题代码，以经过测试确认无误。
+- **windows系统下的安装命令**
+
+`python  -m pip install --user pygal=1.7`
+
+## Pygal的使用
+- 了解Pygal的使用可访问官网：[www.pygal.org](http://www.pygal.org/)
+
+## 程序源码
+
+- dice.py是Python编程从入门到实践掷骰子项目的源码
+- dice_enhance.py是dice的改编版，可以实现让用户自主选择投掷几个骰子，每个骰子分别是几面，并对每个骰子的结果和每次投掷的所有骰子点数之和进行统计分析。
